@@ -19,7 +19,7 @@ public class MaxTemperatureWithCombiner
 			System.exit(-1);
 		}
 		
-		JobConf jobConf = new JobConf(new Configuration(), MaxTemperatureWithCombiner.class);
+		JobConf jobConf = new JobConf(new Configuration(), mapReduce.MaxTemperatureWithCombiner.class);
 		jobConf.setJobName("Max Temperature");
 		
 		FileInputFormat.addInputPath(jobConf, new Path(args[0]));

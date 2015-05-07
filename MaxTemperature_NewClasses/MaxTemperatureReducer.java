@@ -30,7 +30,7 @@ public class MaxTemperatureReducer extends MapReduceBase implements Reducer<Text
 		
 		while (values.hasNext())
 		{
-			maxValue = Math.min(maxValue, values.next().get());
+			maxValue = Math.max(maxValue, values.next().get());
 			noValues++;
 		}
 		
