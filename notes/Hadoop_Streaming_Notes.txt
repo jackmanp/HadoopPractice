@@ -1,0 +1,9 @@
+The HadoopStreaming jar in Hadoop 2.6.0 is located in the following directory:
+$HADOOP_PREFIX/share/hadoop/tools/lib/hadoop-streaming-2.6.0.jar
+
+To use Hadoop Streaming call the hadoop program as follows:
+
+$HADOOP_PREFIX/bin/hadoop jar $HADOOP_PREFIX/share/hadoop/tools/lib/hadoop-streaming-2.6.0.jar -input <myHDFSInputDirectory> -output <myHDFSOutputDirectory> /
+-mapper <pathToMyMapperProgram> -reducer <pathToMyReducerProgram>
+
+As with other MapReduce executions, the HDFS output directory cannot already exist, it is created at runtime.
