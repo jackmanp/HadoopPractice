@@ -11,7 +11,7 @@ public class FileSystemCat
 {
 
 	/**
-	 * @param args
+	 * @param args[0] - hdfs path to source file.
 	 */
 	public static void main(String[] args) throws Exception
 	{

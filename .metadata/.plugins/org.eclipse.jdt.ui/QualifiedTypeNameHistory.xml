@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapred.OutputCollector"/>
+<fullyQualifiedTypeName name="mapReduce.MaxTemperatureWithCombiner"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IOUtils"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.FsUrlStreamHandlerFactory"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="java.net.URI"/>
+</qualifiedTypeNameHistroy>
